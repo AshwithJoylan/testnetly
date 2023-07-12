@@ -34,6 +34,7 @@ module.exports = {
   output: {
     path: path.resolve(rootDir, 'build'),
     filename: 'app-[hash].bundle.js',
+    publicPath: '',
   },
   devtool: 'source-map',
   devServer: {
